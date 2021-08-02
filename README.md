@@ -5,3 +5,7 @@ The output of this application can only be considered an estimate. Reported valu
 
 # Usage
 The program is operated via the command line. You can either enter the directory to scan at runtime or provide it as an argument. Subdirectories are also scanned. All .flp files found in the given directory will be analyzed, including those that are multiple versions of the same file. If you have multiple of the same project, the time will be counted multiple times. It is reccomended to create a directory that only contains the most recent version of each project or your reported values will be far higher than reality.
+
+# Binaries
+Windows x86 Binary:
+https://github.com/Tom-Lieber/FLP-Time/releases/tag/v1.0
