@@ -1,5 +1,5 @@
 # FLP-Time
-This .NET console application extracts the "time spent on project" statistic from FL Studio project files in batch.
+This .NET Core v3.1 console application extracts the "time spent on project" statistic from FL Studio project files in batch.
 It relies on an exponential function to approximate how these values are saved in the .flp filetype.
 The output of this application can only be considered an estimate. Reported values are on average 2 percent lower than actual values, although this varies from -4 to 2 percent. An adjustment is made when reporting the total to help account for this error.
 
